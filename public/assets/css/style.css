@@ -20,15 +20,27 @@
     width: 30%;
 }
 
+.container {
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 8px black;
+}
+
+.vertical-center {
+    min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+    min-height: 100vh; /* These two lines are counted as one :-)       */
+    display: flex;
+    align-items: center;
+  }
+
+.lead {
+    margin-top: 25px;
+}
+
 body {
     background-image: url(../images/silver_scales.png);
     background-repeat: repeat;
     background-position: center;
-}
-
-.jumbotron {
-    background-color: rgb(255, 0, 0);
-    border-bottom: 5px black;
 }
 
 textarea, input {
